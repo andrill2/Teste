@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="description" content="Página publicada no GitHub Pages do repositório andrill2/Teste." />
     <title>Teste</title>
     <style>
       :root {
@@ -13,8 +15,8 @@
         --muted: #94a3b8;
       }
       * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
       body {
-        margin: 0;
         font-family: Arial, Helvetica, sans-serif;
         background: linear-gradient(135deg, var(--bg), #1e293b);
         color: var(--text);
@@ -23,8 +25,8 @@
         place-items: center;
       }
       .card {
-        width: min(720px, 90vw);
-        background: rgba(17, 24, 39, 0.9);
+        width: min(760px, 90vw);
+        background: rgba(17, 24, 39, 0.92);
         border: 1px solid rgba(148, 163, 184, 0.2);
         border-radius: 18px;
         padding: 2rem;
@@ -38,6 +40,7 @@
       p {
         color: var(--muted);
         line-height: 1.7;
+        margin-bottom: 0.75rem;
       }
       .badge {
         display: inline-block;
@@ -49,14 +52,19 @@
         font-weight: bold;
         margin-bottom: 1rem;
       }
+      a {
+        color: var(--primary);
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
     <main class="card">
       <div class="badge">GitHub Pages</div>
       <h1>Teste</h1>
-      <p>Esta página foi publicada com GitHub Pages a partir do repositório <strong>andrill2/Teste</strong>.</p>
-      <p>O ambiente está pronto para receber conteúdos estáticos, como HTML, CSS e JavaScript.</p>
+      <p>Esta é a página correta do repositório <strong>andrill2/Teste</strong>.</p>
+      <p>Se você ainda estiver vendo redirecionamento para outro domínio, limpe o cache do navegador e verifique a configuração do GitHub Pages do repositório para garantir que não exista um domínio personalizado ativo.</p>
+      <p>Link esperado: <a href="https://andrill2.github.io/Teste/">https://andrill2.github.io/Teste/</a></p>
     </main>
   </body>
 </html>
